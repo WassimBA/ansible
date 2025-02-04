@@ -1,0 +1,4 @@
+---
+
+- name: Appliquer le déploiement MySQL
+  ansible.builtin.command: kubectl apply -f {{ role_path }}/files/mysql-deployment.yml
