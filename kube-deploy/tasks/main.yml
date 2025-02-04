@@ -1,2 +1,8 @@
 ---
-# tasks file for kube-deploy
+
+- include_tasks: pv-c.yml
+
+- include_tasks: deploy-mysql.yml
+
+- include_tasks: deploy-app.yml
+
